@@ -40,7 +40,7 @@ main section {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 body {
