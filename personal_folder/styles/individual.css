@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Tiro+Telugu&display=swap');
+body {
+    background-color: #3f3d3e;
+    font-family: 'Tiro Telugu', 'Arvo', 'sans-serif';
+    font-size: 22px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 10fr;
+    padding: 15px;
+}
+
+.msg p {
+    font-family: 'Tiro Telugu', 'Arvo', 'sans-serif';
+    font-size: 1em;
+    padding-bottom: 15px;
+}
+
+#content {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    color: #c9c2c0;
+
+}
+
+nav {
+    background-color: #6f7364;
+    
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    list-style-type: none;
+    display: flex;  display: flex;
+    justify-content: space-around;
+  
+
+}
+nav a:hover {
+    color: #3f3d3e;
+}
+
+.groom {
+    float: right;
+    border: 10px solid #302619;
+    margin-left: 20px;
+    height: 350px;
+    width: 650px;
+    
+    transition: transform .5s;
+    margin-right: 20px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    
+}
+#background_2 {
+    height: 650px;
+    background-color: #6f7364;
+    overflow: auto;
+    margin-top: 20px;
+    
+}
+.bride {
+    
+    height: 400px;
+    width: 650px;
+    margin-top: 100px;
+    border: 10px solid #454542;
+    justify-self: center;
+    transition: transform .5s;
+    margin-left: 300px;
+    
+
+}
+.bride:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+.msg2 {
+    color: #000000;
+    text-align: justify;
+    padding: 50px;
+}
+h3 {
+    text-decoration: none;
+    
+    padding-left: 35px;
+    font-size: xx-large;
+}
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+    
+}
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+.msg {
+    
+    color: #d9d93a;
+    text-decoration: none;
+    line-height: 2em;
+    padding: 35px;
+    
+    
+}
+#background {
+    height: 650px;
+    background-color: #433d36;
+    grid-column: 1/11;
+    grid-row: 4/9;
+    opacity: 60;
+    overflow: auto;
+}
+
+.Salmon:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+#background_3 {
+    height: 650px;
+    background-color: #433d36;
+    grid-column: 1/11;
+    grid-row: 4/9;
+    opacity: 60;
+    overflow: auto;
+    margin-top: 20px;
+    
+}h4 {
+    font-size: xx-large;
+    color: #d9c2a3;
+    text-align: center;
+}
+.msg3 {
+    color: #d9c2a3;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.Grand {
+    margin-right: 20px;
+    height: 400px;
+    width: 650px;
+    margin-left: 30px;
+    border: 10px solid #74634c;
+    float: right;
+    transition: transform .5s;
+    margin-bottom: 20px;
+}
+.Grand:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+.button-box1 {
+    text-align: center;
+    margin-top: 35px;
+}
+.book1 {
+    background-color: #a47300;
+    color: white;
+    text-decoration: none;
+    font-family: 'Tiro Telugu', 'Roboto', 'sans-serif';
+    font-size: 25px;
+    padding: 15px 30px;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.book1:hover {
+    background-color: #023E8A;
+    color: #f6f740;
+}
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+
+
+    footer {
+        margin-top: 25px;
+    }
+}

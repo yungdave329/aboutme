@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Tiro+Telugu&display=swap');
+
+body {
+    background-color: #c9c2c0;
+    font-family: 'Tiro Telugu', 'Roboto', 'sans-serif';
+    font-size: 22px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 10fr;
+    padding: 15px;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+p {
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#background {
+    background-color: #3f3d3e;
+    height: 10px;
+    
+}
+.f-pic {
+    border: 10px solid #3f3d3e;
+    height: 500px;
+    margin: 20px;
+    justify-self: center;
+   
+}
+.hsecpic {
+    border: 10px solid #3f3d3e;
+    height: 500px;
+    margin: 20px;
+    justify-self: center;
+}
+nav {
+    background-color: #3f3d3e;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    list-style-type: none;
+    display: flex;  display: flex;
+    justify-content: space-around;
+  
+
+}
+nav a {
+padding:1em;
+min-width: 120px;
+text-decoration: none;
+padding: 10px;
+
+}
+nav a:link, nav a:visited {
+color: var(--nav-link-color);
+}
+nav a:hover {
+color: #c9c2c0;
+
+}
