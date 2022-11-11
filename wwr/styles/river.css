@@ -85,7 +85,6 @@ nav a:hover {
     color: #f6f740;
 }
 .join:hover {
-    background-color: none;
     color: white;
 }
 
@@ -110,7 +109,7 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    background-color: none;
+    
     color: white;
 }
 .logo {
@@ -249,7 +248,7 @@ h3 {
     background-color: #433d36;
     grid-column: 1/11;
     grid-row: 4/9;
-    opacity: 60;
+    opacity: 1;
     overflow: auto;
 }
 
@@ -262,7 +261,7 @@ h3 {
     background-color: #433d36;
     grid-column: 1/11;
     grid-row: 4/9;
-    opacity: 60;
+    opacity: 1;
     overflow: auto;
     margin-top: 20px;
     
