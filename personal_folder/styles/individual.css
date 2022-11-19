@@ -6,7 +6,7 @@ body {
     margin: 0;
     display: grid;
     grid-template-columns: 10fr;
-    padding: 15px;
+    padding: 15px
 }
 
 .msg p {
@@ -265,7 +265,7 @@ h3 {
 }
 .footer-bottom {
     background: #000;
-    width: 100vw;
+
     padding: 20px;
     text-align: center;
 }
