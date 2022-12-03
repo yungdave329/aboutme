@@ -69,6 +69,10 @@ nav a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s;
+
 }
 .join {
     background-color: #c99d0e;
@@ -79,16 +83,97 @@ nav a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
 }
-.book:hover {
-    background-color: #023E8A;
-    color: #f6f740;
+.join span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.join span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
-.join:hover {
-    background-color: none;
-    color: white;
+  
+.join:hover span {
+    padding-right: 25px;
+}
+  
+.join:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.book span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.book span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.book:hover span {
+    padding-right: 25px;
+}
+  
+.book:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+padding-right: 25px;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
+}
 footer {
     background-color: rgba(20,30,13, .7);
     color: #dac2a7;
@@ -214,6 +299,7 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
